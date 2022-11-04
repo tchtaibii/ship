@@ -1,0 +1,335 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    Width: 306px;
+    Height: 32px;
+    background: #25A4FF;
+    border-radius: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    margin-bottom: 17px;
+}
+
+#content1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.c1{
+    display: flex;
+    flex-direction: column;
+}
+
+.textcash{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.c1 h2{
+    display: inline;
+    font-family: 'Inter';
+    font-size: 30px;
+}
+
+.c1 h1{
+    font-family: 'Inter';
+    font-size: 50px;
+    line-height: 70px;
+    margin-top: -23px;
+    margin-bottom: 20px;
+}
+.c1p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 140%;
+    letter-spacing: -1px;
+    color:  rgba(255, 255, 255, 0.75);
+    margin-bottom: 50px;
+}
+.c2{
+    display: flex;
+    width: 559px;
+}
+.c2 img{
+    width: inherit;
+}
+.bc1{
+    display: flex;
+    flex-direction: row;
+}
+.lears{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 198px;
+    height: 65px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1.5px solid rgba(105, 176, 25, 0.2);
+    border-radius: 20px;
+    margin-left: 40px;
+}
+
+.gets{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 175px;
+    height: 65px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    background: linear-gradient(96.69deg, #C1D20B -7.54%, #6BAF1A 93.14%);
+    border-radius: 20px;
+}
+
+.c3-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 30px;
+    width: 27.5rem;
+    height: 15.563rem;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    padding: 0 1.875rem;
+    padding-top: 1.875rem;
+}
+
+.bt{
+    cursor: pointer;
+    transition: 2s;
+}
+
+.imgcash {
+    display: inline;
+    display: none;
+    position: relative;
+    width: 151.5px;
+    height: 7.05px;
+    bottom: 14px;
+    left: calc(55%);
+}
+
+@media (max-width: 640px) {
+    .c3-box
+    {
+        margin-left: 0;
+        width: 100%;
+        padding: 40px 1.875rem;
+        height: fit-content;
+        margin-bottom: 1.563rem;
+    }
+}
+.c3-box h2{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 1.563rem;
+    line-height: 26px;
+    letter-spacing: -0.04em;
+    color: #295A8E;
+    margin-bottom: 13px;
+}
+.c3-box p{
+    text-align: start;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 23px;
+    /* or 164% */
+    font-feature-settings: 'salt' on, 'liga' off;
+    letter-spacing: -0.03em;
+    color: #18191F;
+}
+
+.best-value::before{
+    content: "BEST VALUE";
+    width: 88px;
+    height: 24px;
+    font-family: 'Inter';
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 10px;
+    position : relative;
+    bottom: 12px;
+    padding-top: 2px;
+    background: #0393FB;
+    border: 3px solid #FFFFFF;
+    border-radius: 13.5px;
+    margin: 0 auto;
+}
+.best-value-ups::before{
+    content: "BEST VALUE";
+    width: 88px;
+    height: 24px;
+    font-family: 'Inter';
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 10px;
+    position : relative;
+    bottom: 12px;
+    padding-top: 2px;
+    background: #E4A25C;
+    border: 3px solid #FFFFFF;
+    border-radius: 13.5px;
+    margin: 0 auto;
+}
+.ups::before{
+    content: "";
+    position : relative;
+    margin: 0 auto;
+    width: 196px;
+    height: 50.33px;
+    bottom: 25px;
+    background: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    border-radius: 21.5px;
+}
+
+.pricing-1::before{
+    content: url(img/backround3.svg);
+    position: absolute;
+    left: 210px;
+    transform: translateY(-40px);
+}
+.pricing-1::after{
+    content: url(img/e.png);
+    position : relative;
+    margin: 0 auto;
+    bottom: 600px;
+    /* z-index: -1; */
+    /* width: 50%; */
+}
+
+.quotes{
+    Width: 350px;
+    Height: 141.44px;
+    border-radius: 10px;
+    border: 1px solid #EDF1F5;
+    box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
+}
+.quotes p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
+
+.hc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.hc a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 200 */
+
+    color: #EEEFF4;
+}
+
+.hc ul{
+    list-style: none;
+}
+.hc li{
+    margin-bottom: 11px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+
+}
+#contact{
+    margin-left: 216px;
+}
+#legal, #account{
+    margin-left: 70px;
+}
+.hc h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 100 */
+    margin-bottom: 32px;
+    color: #F4F5F7;
+
+}
+.hc a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+    text-decoration: none;
+    list-style: none;
+    /* Text / Gray 200 */
+
+    color: #EEEFF4;
+}
+
+#p1t::before{
+    content: "";
+    position: relative;
+    width: 20px;
+    height: 0px;
+    top: 14px;
+    right: 18px;
+    border: 1px solid #C0E4FE;
+    transform: rotate(90deg);
+    background-color: #C0E4FE;
+
+}
