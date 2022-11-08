@@ -114,23 +114,55 @@
                     <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
                         
                         <form class="space-y-4 md:space-y-6" action="#">
-                            <div>
+                            <div class="">
                                 <label for="email" class="block mb-2 text-sm font-medium text-[#1B212D] dark:text-[#1B212D]">Username</label>
-                                <input type="text" name="user" id="user" class=" border border-gray-300 text-[#78778B80] sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5  dark:border-[#F2F2F2] dark:placeholder-[#78778B] dark:text-[#78778B] dark:focus:ring-blue-500 dark:focus:border-[#F2F2F2]" placeholder="Username" required="">
+                                <div class="relative items-center flex w-full flex-wrap items-stretch mb-3">
+                                    <input type="text" name="user" id="user" class=" border border-gray-300 text-[#78778B80] sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5  dark:border-[#F2F2F2] dark:placeholder-[#78778B] dark:text-[#78778B] dark:focus:ring-blue-500 dark:focus:border-[#F2F2F2]" placeholder="Username" required="">
+                                    <span class="z-10 h-full leading-snug font-normal absolute text-center text-slate-300 absolute bg-transparent rounded text-base items-center justify-center w-8 right-2.5 top-0 pr-3 py-3">
+                                        <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.99902 9.75C10.4153 9.75 12.374 7.79125 12.374 5.375C12.374 2.95875 10.4153 1 7.99902 1C5.58278 1 3.62402 2.95875 3.62402 5.375C3.62402 7.79125 5.58278 9.75 7.99902 9.75Z" stroke="#DDDDE2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M1 18.8193C1 16.9628 1.7375 15.1823 3.05025 13.8696C4.36301 12.5568 6.14348 11.8193 8 11.8193C9.85652 11.8193 11.637 12.5568 12.9497 13.8696C14.2625 15.1823 15 16.9628 15 18.8193" stroke="#DDDDE2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                                        
+                                    </span>                                 
+                                </div>
                             </div>
                             <div>
                                 <label for="email" class="block mb-2 text-sm font-medium text-[#1B212D] dark:text-[#1B212D]">Email</label>
-                                <input type="email" name="email" id="email" class=" border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5  dark:border-[#F2F2F2] dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-[#F2F2F2]" placeholder="Email" required="">
+                                <div class="relative items-center flex w-full flex-wrap items-stretch mb-3">
+                                    <input type="email" name="email" id="email" class=" border border-gray-300 text-[#78778B80] sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5  dark:border-[#F2F2F2] dark:placeholder-[#78778B] dark:text-[#78778B] dark:focus:ring-blue-500 dark:focus:border-[#F2F2F2]" placeholder="Email" required="">
+                                    <span class="z-10 h-full leading-snug font-normal absolute text-center text-slate-300 absolute bg-transparent rounded text-base items-center justify-center w-8 right-2.5 top-0 pr-3 py-3">
+                                        <svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect x="1" y="1" width="18" height="13.5" rx="2" stroke="#DDDDE2"/>
+                                            <path d="M1 4.375L9.10557 8.42779C9.66863 8.70931 10.3314 8.70931 10.8944 8.42779L19 4.375" stroke="#DDDDE2"/>
+                                        </svg>                                        
+                                    </span>
+                                    
+                                </div>
                             </div>
                             <div>
                                 <label for="password" class="block mb-2 text-sm font-medium text-[#1B212D] dark:text-[#1B212D]">Password</label>
-                                <input type="password" name="password" id="password" placeholder="••••••••" class=" border border-[#F2F2F2] text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5  dark:border-[#F2F2F2] dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-[#F2F2F2]" required="">
+                                <div class="relative items-center flex w-full flex-wrap items-stretch mb-3">
+                                    <input type="password" name="password" id="password" placeholder="••••••••" class=" border border-gray-300 text-[#78778B80] sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5  dark:border-[#F2F2F2] dark:placeholder-[#78778B] dark:text-[#78778B] dark:focus:ring-blue-500 dark:focus:border-[#F2F2F2]" required="">
+                                    <span class="z-10 h-full leading-snug font-normal absolute text-center text-slate-300 absolute bg-transparent rounded text-base items-center justify-center w-8 right-2.5 top-0 pr-3 py-3">
+                                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.4163 9.5C17.4163 9.5 15.0413 14.25 9.49967 14.25C3.95801 14.25 1.58301 9.5 1.58301 9.5C1.58301 9.5 3.95801 4.75 9.49967 4.75C15.0413 4.75 17.4163 9.5 17.4163 9.5Z" stroke="#DDDDE2" stroke-linecap="round"/>
+                                            <circle cx="9.5" cy="9.5" r="2.375" stroke="#DDDDE2" stroke-linecap="round"/>
+                                        </svg>                                            
+                                    </span>
+                                </div>
                             </div>
                             <div>
-                                <label for="confirm-password" class="block mb-2 text-sm font-medium text-[#1B212D] dark:text-[#1B212D]">Confirm password</label>
-                                <input type="confirm-password" name="confirm-password" id="confirm-password" placeholder="••••••••" class=" border border-[#F2F2F2] text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5  dark:border-[#F2F2F2] dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required="">
+                                <label for="password" class="block mb-2 text-sm font-medium text-[#1B212D] dark:text-[#1B212D]">Confirm Password</label>
+                                <div class="relative items-center flex w-full flex-wrap items-stretch mb-3">
+                                    <input type="password" name="password" id="password" placeholder="••••••••" class="border border-gray-300 text-[#78778B80] sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5  dark:border-[#F2F2F2] dark:placeholder-[#78778B] dark:text-[#78778B] dark:focus:ring-blue-500 dark:focus:border-[#F2F2F2]" required="">
+                                    <span class="z-10 h-full leading-snug font-normal absolute text-center text-slate-300 absolute bg-transparent rounded text-base items-center justify-center w-8 right-2.5 top-0 pr-3 py-3">
+                                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.4163 9.5C17.4163 9.5 15.0413 14.25 9.49967 14.25C3.95801 14.25 1.58301 9.5 1.58301 9.5C1.58301 9.5 3.95801 4.75 9.49967 4.75C15.0413 4.75 17.4163 9.5 17.4163 9.5Z" stroke="#DDDDE2" stroke-linecap="round"/>
+                                            <circle cx="9.5" cy="9.5" r="2.375" stroke="#DDDDE2" stroke-linecap="round"/>
+                                            </svg>                                            
+                                    </span>
+                                </div>
                             </div>
-
                             <button type="submit" class="w-full text-white bg-[#0393FB] hover:bg-[#0393FB] focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Register</button>
                             <p class="text-sm font-light text-gray-500 dark:text-gray-400 text-center">
                                 Already have an account? <a href="#" class="text-[#0393FB] font-medium text-primary-600 hover:underline dark:text-[#0393FB]">Click here to login</a>
