@@ -31,7 +31,7 @@
     justify-content: center;
     width: 80%;
     margin: 0 auto;
-    margin-top: 90px;
+    margin-top: 20px;
 }
 .c1{
     display: flex;
@@ -69,14 +69,12 @@
 }
 .c2{
     display: flex;
-    width: 559px;
 }
-.c2 img{
-    width: inherit;
-}
+
 .bc1{
     display: flex;
     flex-direction: row;
+    /* justify-content: space-around; */
 }
 .lears{
     display: flex;
@@ -173,6 +171,9 @@
     letter-spacing: -0.03em;
     color: #18191F;
 }
+.best-value{
+    margin-left: 0.938rem;
+}
 
 .best-value::before{
     content: "BEST VALUE";
@@ -190,6 +191,9 @@
     border: 3px solid #FFFFFF;
     border-radius: 13.5px;
     margin: 0 auto;
+}
+.best-value-ups{
+    margin-left: 0.938rem;
 }
 .best-value-ups::before{
     content: "BEST VALUE";
@@ -236,7 +240,7 @@
 }
 
 .quotes{
-    Width: 350px;
+    Width: 300px;
     Height: 141.44px;
     border-radius: 10px;
     border: 1px solid #EDF1F5;
@@ -320,7 +324,13 @@
 
     color: #EEEFF4;
 }
+#copyright{
+    font-size: 0.875rem;
+}
+.img-s{
+    width: 354px;
 
+}
 #p1t::before{
     content: "";
     position: relative;
@@ -332,4 +342,197 @@
     transform: rotate(90deg);
     background-color: #C0E4FE;
 
+}
+.logo-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.join-our{
+    width: 984px;
+    height: 170px;
+}
+#boxs{
+    width: 27.688rem;
+    height: 25.625rem;
+}
+#boxs2{
+    width: 27.688rem;
+    height: 31.75rem;
+
+}
+.join-c{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 32px;
+}
+.join-img{
+    margin-right: 28px;
+}
+.join-txt{
+    margin-right: 50px;
+}
+
+@media (max-width: 1459px) {
+    .c2{
+        display: none;
+    }
+    
+}
+@media (max-width: 1048px) {
+    #contact{
+        margin-left: 150px;
+    }
+}
+@media (max-width: 1098px) {
+    .img-s{
+        width: 200px;
+        
+    }
+}
+@media (max-width: 1016px) {
+    .join-our{
+        width: 90%;
+    }
+}
+@media (max-width: 875px) {
+    .footer-h{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #contact{
+        margin-left: 0;
+    }
+    .logo-footer{
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    /* .join-p{
+        display: none;
+    } */
+    .join-c{
+        flex-direction: column;
+
+    }
+    .join-our{
+        width: 350px;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+    }
+    .join-img, .join-txt{
+        margin-right: 0;
+    }
+    /* .join-t{
+        width: 275px;
+    } */
+}
+@media (max-width: 453px) {
+    .c1 h1 {
+        font-family: 'Inter';
+        font-size: 30px;
+        line-height: 30px;
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+    .c1 h1 {
+        font-size: 20px;
+    }
+    .c1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .c1p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.7rem;
+        line-height: 140%;
+        letter-spacing: -1px;
+        color: rgba(255, 255, 255, 0.75);
+        margin-bottom: 50px;
+    }
+    #title-cont{
+        font-size: 1.9rem;
+    }
+    #p-cont{
+        font-size: 0.9rem;
+    }
+    #p1-cont{
+        font-size: 0.5rem;
+    }
+    #just-3{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #boxs{
+        width: 350px;
+        height: 430px;
+    }
+    #mini-box{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        gap: 20px;
+    }
+    .best-value{
+        margin-left: 0;
+    }
+    #boxs2{
+        width: 350px;
+        height: 527px;
+    }
+    .best-value-ups{
+        margin-left: 0;
+    }
+    #legal, #account {
+        margin-left: 25px;
+    }
+    .c1p {
+        width: 294px;
+    }
+    .bc1{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        /* justify-content: space-around; */
+    }
+    #copyright{
+        font-size: 0.5rem;
+    }
+}
+@media (max-width: 392px) {
+    #just-3{
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+    .join-our {
+        width: 296px;
+    }
+    #boxs{
+        width: 300px;
+        height: 454px;
+    }
+    #p-cont {
+        font-size: 0.7rem;
+    }
+    #boxs2 {
+        width: 300px;
+        height: 557px;
+    }
+    .c1p {
+        width: 229px;
+    }
+    .c1 h1 {
+        font-size: 20px;
+        text-align: center;
+    }
 }
